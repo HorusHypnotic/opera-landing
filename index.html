@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecossistema OPERA — Recupere a coordenação da sua obra</title>
+  <meta name="description" content="Gestão completa de obras para construtoras. Fechamento mensal, controle de presença, evidências auditáveis e 10 princípios de integridade de dados. Baseado na Teoria da Persistência da Coordenação." />
+  <meta name="keywords" content="gestão de obras, construtech, SaaS construção civil, fechamento de obra, controle de custos obra, OPERA Atlas" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+    * { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+    .bg-dark-blue { background-color: #0B1A2F; }
+    .bg-gold { background-color: #F5B041; }
+    .text-gold { color: #F5B041; }
+    .border-gold { border-color: #F5B041; }
+    .btn-primary { background-color: #F5B041; color: #0B1A2F; font-weight: 700; padding: 16px 32px; border-radius: 8px; transition: all 0.3s; display: inline-block; }
+    .btn-primary:hover { background-color: #e6a030; transform: scale(1.02); box-shadow: 0 10px 25px -5px rgba(245, 176, 65, 0.4); }
+    .btn-outline { border: 2px solid #F5B041; color: #F5B041; font-weight: 700; padding: 14px 28px; border-radius: 8px; transition: all 0.3s; display: inline-block; }
+    .btn-outline:hover { background-color: #F5B041; color: #0B1A2F; }
+    .card-hover { transition: transform 0.2s; border: 1px solid #1e3a5f; }
+    .card-hover:hover { transform: translateY(-6px); border-color: #F5B041; }
+    .bg-light-card { background-color: #11263f; }
+    .text-muted { color: #9bb1cc; }
+    .gradient-hero { background: linear-gradient(135deg, #0B1A2F 0%, #1a365d 100%); }
+    .faq-item { border-bottom: 1px solid #1e3a5f; padding: 18px 0; }
+    .faq-item summary { cursor: pointer; font-weight: 600; color: #e2e8f0; }
+    .faq-item summary:hover { color: #F5B041; }
+    .faq-item p { color: #9bb1cc; padding-top: 8px; }
+  </style>
+</head>
+<body class="bg-dark-blue text-white">
+
+  <!-- NAV -->
+  <nav class="container mx-auto px-4 py-5 flex justify-between items-center border-b border-[#1e3a5f]">
+    <div class="text-2xl font-extrabold tracking-tight">
+      <span class="text-gold">OPERA</span><span class="text-white">.</span>
+    </div>
+    <div class="space-x-6 hidden md:block">
+      <a href="#problema" class="text-muted hover:text-white transition">Problema</a>
+      <a href="#solucao" class="text-muted hover:text-white transition">Solução</a>
+      <a href="#precos" class="text-muted hover:text-white transition">Preços</a>
+      <a href="#faq" class="text-muted hover:text-white transition">FAQ</a>
+    </div>
+    <a href="#cta-final" class="bg-gold text-dark-blue px-5 py-2 rounded-full text-sm font-bold hover:opacity-90 transition">Quero recuperar</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="gradient-hero pt-16 pb-24 text-center px-4">
+    <div class="container mx-auto max-w-4xl">
+      <span class="inline-block bg-[#1e3a5f] text-gold text-xs font-bold uppercase tracking-wider py-1 px-4 rounded-full mb-6">Teoria da Persistência da Coordenação</span>
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+        Sua obra perde dinheiro <br> <span class="text-gold">sem você ver.</span> <br> Nós mostramos onde.
+      </h1>
+      <p class="text-xl text-muted max-w-2xl mx-auto mb-8 leading-relaxed">
+        A Teoria da Persistência da Coordenação aplicada à construção civil. Três produtos integrados que organizam, preservam e restauram a coordenação da sua obra — transformando perda invisível em capital preservado.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#cta-final" class="btn-primary text-lg"><i class="fas fa-chart-line mr-2"></i> Quero saber onde estou perdendo →</a>
+        <a href="#solucao" class="btn-outline text-lg">Conhecer o ecossistema</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section id="problema" class="py-20 px-4 bg-[#0d1f36]">
+    <div class="container mx-auto max-w-4xl text-center">
+      <h2 class="text-3xl md:text-5xl font-bold mb-4">O prejuízo que <span class="text-gold">você não vê</span></h2>
+      <p class="text-muted text-lg max-w-3xl mx-auto leading-relaxed">
+        A construção civil perde margem silenciosamente. Não é roubo. Não é desperdício. <strong class="text-white">É coordenação que se degrada.</strong>
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-left">
+        <div class="bg-light-card p-6 rounded-xl card-hover"><i class="fas fa-rotate-left text-gold text-3xl mb-4"></i><h4 class="font-bold text-lg">Retrabalho</h4><p class="text-muted text-sm">Que vira "normal" e corrói seu lucro mês após mês.</p></div>
+        <div class="bg-light-card p-6 rounded-xl card-hover"><i class="fas fa-clock text-gold text-3xl mb-4"></i><h4 class="font-bold text-lg">Espera</h4><p class="text-muted text-sm">Que vira "parte do processo" e para a obra inteira.</p></div>
+        <div class="bg-light-card p-6 rounded-xl card-hover"><i class="fas fa-cart-plus text-gold text-3xl mb-4"></i><h4 class="font-bold text-lg">Compra emergencial</h4><p class="text-muted text-sm">Que vira "jeito de fazer" e estoura o orçamento.</p></div>
+      </div>
+      <p class="text-white text-xl font-bold mt-10">O que você não mede, você não corrige.</p>
+    </div>
+  </section>
+
+  <!-- SOLUÇÃO (3 PRODUTOS) -->
+  <section id="solucao" class="py-20 px-4">
+    <div class="container mx-auto max-w-6xl">
+      <h2 class="text-3xl md:text-5xl font-bold text-center mb-4">O que é o <span class="text-gold">OPERA</span>?</h2>
+      <p class="text-muted text-center max-w-3xl mx-auto text-lg leading-relaxed mb-16">
+        Ecossistema de inteligência operacional que preserva a coordenação da sua obra, baseado na <strong class="text-white">Teoria da Persistência da Coordenação (TPC)</strong>.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Copiloto -->
+        <div class="bg-light-card p-8 rounded-2xl border border-[#1e3a5f] text-center hover:border-gold transition">
+          <div class="text-4xl mb-4">📋</div>
+          <h3 class="text-2xl font-bold text-gold">Copiloto de Obras</h3>
+          <p class="text-sm text-muted uppercase tracking-wide mb-3">Registra o dia a dia</p>
+          <ul class="text-left text-muted space-y-2 text-sm">
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> Equipes, produção, estoque</li>
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> Dashboard em tempo real</li>
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> Alertas inteligentes</li>
+          </ul>
+          <span class="inline-block mt-4 text-xs bg-[#1e3a5f] text-gold px-3 py-1 rounded-full">A obra respira aqui</span>
+        </div>
+        <!-- Atlas -->
+        <div class="bg-light-card p-8 rounded-2xl border border-[#1e3a5f] text-center hover:border-gold transition md:-translate-y-4">
+          <div class="text-4xl mb-4">📊</div>
+          <h3 class="text-2xl font-bold text-gold">OPERA Atlas</h3>
+          <p class="text-sm text-muted uppercase tracking-wide mb-3">Preserva a verdade operacional</p>
+          <ul class="text-left text-muted space-y-2 text-sm">
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> Baseline congelado</li>
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> Hash SHA-256 / Auditoria</li>
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> Exportação Power BI</li>
+          </ul>
+          <span class="inline-block mt-4 text-xs bg-[#1e3a5f] text-gold px-3 py-1 rounded-full">A obra deixa um legado</span>
+        </div>
+        <!-- Control -->
+        <div class="bg-light-card p-8 rounded-2xl border border-[#1e3a5f] text-center hover:border-gold transition">
+          <div class="text-4xl mb-4">🎯</div>
+          <h3 class="text-2xl font-bold text-gold">OPERA Control</h3>
+          <p class="text-sm text-muted uppercase tracking-wide mb-3">Mede a perda invisível</p>
+          <ul class="text-left text-muted space-y-2 text-sm">
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> ECOs / ICO / Capital Preservado</li>
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> Relatório mensal de causas</li>
+            <li><i class="fas fa-check-circle text-gold mr-2"></i> 55 padrões de causa raiz</li>
+          </ul>
+          <span class="inline-block mt-4 text-xs bg-[#1e3a5f] text-gold px-3 py-1 rounded-full">Revela seus vazamentos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTADOS REAIS -->
+  <section class="py-20 px-4 bg-[#0d1f36]">
+    <div class="container mx-auto max-w-5xl">
+      <h2 class="text-3xl md:text-5xl font-bold text-center mb-12">O que o OPERA já <span class="text-gold">entregou</span></h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-light-card p-6 rounded-xl border-l-4 border-gold">
+          <span class="text-gold text-3xl font-black">R$14k</span>
+          <p class="text-white font-bold mt-1">Recuperados em 90 dias</p>
+          <p class="text-muted text-sm">Redução de 65% da perda em obra residencial com retrabalho e compras emergenciais.</p>
+        </div>
+        <div class="bg-light-card p-6 rounded-xl border-l-4 border-gold">
+          <span class="text-gold text-3xl font-black">R$15,7k</span>
+          <p class="text-white font-bold mt-1">Economia em aluguel</p>
+          <p class="text-muted text-sm">Decisão revista: alugar equipamento vs. comprar, com base na TDO (Teoria da Degradação).</p>
+        </div>
+        <div class="bg-light-card p-6 rounded-xl border-l-4 border-gold">
+          <span class="text-gold text-3xl font-black">11 ECOs</span>
+          <p class="text-white font-bold mt-1">em 90 dias (R$34.540)</p>
+          <p class="text-muted text-sm">Apenas 3 ECOs pagam 3 meses de OPERA. A pergunta é: você pode continuar perdendo?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREÇOS -->
+  <section id="precos" class="py-20 px-4">
+    <div class="container mx-auto max-w-6xl">
+      <h2 class="text-3xl md:text-5xl font-bold text-center mb-4">Planos <span class="text-gold">modulares</span></h2>
+      <p class="text-muted text-center mb-12">Escolha o que faz sentido para sua realidade.</p>
+      
+      <!-- Diagnóstico -->
+      <div class="max-w-sm mx-auto bg-light-card p-8 rounded-2xl border border-[#1e3a5f] text-center mb-8">
+        <span class="text-sm font-bold bg-[#1e3a5f] text-gold px-3 py-1 rounded-full">Rápido</span>
+        <h4 class="text-2xl font-bold mt-4">Diagnóstico Técnico</h4>
+        <p class="text-4xl font-black text-gold my-4">R$ 197 <span class="text-base font-normal text-muted">único</span></p>
+        <ul class="text-left text-muted space-y-2 text-sm">
+          <li><i class="fas fa-check-circle text-gold mr-2"></i> Checklist O.P.E.R.A. completo</li>
+          <li><i class="fas fa-check-circle text-gold mr-2"></i> Pontuação de 0 a 10 e 3 gargalos</li>
+          <li><i class="fas fa-check-circle text-gold mr-2"></i> Recomendação de próximo passo</li>
+        </ul>
+        <a href="#cta-final" class="btn-primary w-full text-center mt-6 text-sm">Quero meu diagnóstico</a>
+      </div>
+
+      <!-- Piloto -->
+      <div class="max-w-sm mx-auto bg-gradient-to-b from-[#1a365d] to-[#0B1A2F] p-8 rounded-2xl border-2 border-gold text-center relative mb-8">
+        <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-gold text-dark-blue text-xs font-bold px-4 py-1 rounded-full">🔬 VAGAS LIMITADAS</span>
+        <h4 class="text-2xl font-bold mt-4">Piloto OPERA (90 dias)</h4>
+        <p class="text-4xl font-black text-gold my-4">R$ 6.500 <span class="text-base font-normal text-muted">/mês por obra</span></p>
+        <ul class="text-left text-muted space-y-2 text-sm">
+          <li><i class="fas fa-check-circle text-gold mr-2"></i> Copiloto + Atlas + Control</li>
+          <li><i class="fas fa-check-circle text-gold mr-2"></i> Acompanhamento semanal por analista</li>
+          <li><i class="fas fa-check-circle text-gold mr-2"></i> Diagnóstico inicial e final</li>
+          <li><i class="fas fa-check-circle text-gold mr-2"></i> <strong class="text-white">Participe da pesquisa de campo</strong></li>
+        </ul>
+        <a href="#cta-final" class="btn-primary w-full text-center mt-6 text-sm">Garantir minha vaga (5 obras)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 px-4 bg-[#0d1f36]">
+    <div class="container mx-auto max-w-3xl">
+      <h2 class="text-3xl md:text-5xl font-bold text-center mb-12">Dúvidas <span class="text-gold">frequentes</span></h2>
+      <div class="faq-item"><summary>Preciso instalar algo?</summary><p>Não. O OPERA é um PWA (aplicativo web). Funciona no celular, tablet ou computador. Basta abrir o navegador.</p></div>
+      <div class="faq-item"><summary>E se a internet cair?</summary><p>O sistema funciona offline. Os dados são sincronizados automaticamente quando a conexão volta.</p></div>
+      <div class="faq-item"><summary>Meu time não vai usar. E agora?</summary><p>Nós implantamos e treinamos. O sistema é mobile-first e foi desenhado para ser usado por qualquer pessoa, do mestre de obras ao encarregado.</p></div>
+      <div class="faq-item"><summary>Quanto custa?</summary><p>R$ 6.500/mês no pacote completo (Copiloto + Atlas + Control). Planos modulares disponíveis a partir de R$ 2.500/mês.</p></div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section id="cta-final" class="py-20 px-4 text-center bg-dark-blue border-t border-[#1e3a5f]">
+    <div class="container mx-auto max-w-3xl">
+      <span class="inline-block bg-gold/10 text-gold text-xs font-bold uppercase tracking-wider py-1 px-4 rounded-full mb-6">Edital de Pesquisa</span>
+      <h2 class="text-3xl md:text-5xl font-bold leading-tight mb-6">
+        Sua obra está perdendo dinheiro invisível. <br> <span class="text-gold">Vamos provar e recuperar.</span>
+      </h2>
+      <p class="text-muted text-lg mb-8">
+        Participe da pesquisa de campo da Teoria da Persistência da Coordenação. <br>
+        <strong class="text-white">10 obras selecionadas</strong> — 5 piloto (OPERA) + 5 controle. <br>
+        90 dias de acompanhamento com resultados reais.
+      </p>
+      
+      <!-- Formulário de Captura -->
+      <form action="https://formsubmit.co/SEU_EMAIL_AQUI" method="POST" class="max-w-md mx-auto bg-light-card p-8 rounded-2xl border border-[#1e3a5f] text-left">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Lead - Landing Page OPERA">
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">Nome completo</label>
+          <input type="text" name="nome" required class="w-full bg-dark-blue border border-[#1e3a5f] rounded-lg px-4 py-3 text-white focus:border-gold focus:outline-none transition">
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium mb-1">E-mail profissional</label>
+          <input type="email" name="email" required class="w-full bg-dark-blue border border-[#1e3a5f] rounded-lg px-4 py-3 text-white focus:border-gold focus:outline-none transition">
+        </div>
+        <div class="mb-6">
+          <label class="block text-sm font-medium mb-1">WhatsApp (com DDD)</label>
+          <input type="text" name="whatsapp" required class="w-full bg-dark-blue border border-[#1e3a5f] rounded-lg px-4 py-3 text-white focus:border-gold focus:outline-none transition">
+        </div>
+        <button type="submit" class="btn-primary w-full text-center text-lg"><i class="fas fa-flask mr-2"></i> Quero participar da pesquisa →</button>
+        <p class="text-muted text-xs text-center mt-4">Seus dados estão seguros. Você receberá o diagnóstico gratuito em até 24h.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 px-4 text-center text-muted text-sm border-t border-[#1e3a5f] bg-dark-blue">
+    <p>© 2026 OPERA — Canteiro de Obras Digital.</p>
+    <p class="text-xs">Pesquisa independente da Teoria da Persistência da Coordenação. Início: 03/09/2026</p>
+  </footer>
+
+</body>
+</html>
