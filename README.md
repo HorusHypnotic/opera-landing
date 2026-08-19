@@ -1,32 +1,12 @@
-# OPERA — Landing Page
+# OPERA Landing — consulta de interesse
 
-Landing page do Ecossistema OPERA — Sistema de gestão de obras baseado na Teoria da Persistência da Coordenação (TPC).
+Esta página serve de apoio à oferta pública oficial: **Diagnóstico Operacional — R$ 1.297**.
 
-## Sobre
+## Decisão comercial registrada (19/08/2026)
 
-Esta é a página de conversão do OPERA, com formulário de captura de leads para a pesquisa de campo de validação empírica da TPC.
-
-## Stack
-
-- HTML5 / Tailwind CSS (via CDN)
-- FormSubmit.co (captura de leads)
-- GitHub Pages (deploy)
-
-## Deploy
-
-1. Habilite o GitHub Pages no repositório (Settings > Pages > Source: main).
-2. Acesse em `https://horushypnotic.github.io/opera-landing/`
-
-## Configuração
-
-Substitua `SEU_EMAIL_AQUI` no formulário pelo e-mail real para receber os leads.
-
-## Repositórios Relacionados
-
-- [opera-atlas](https://github.com/HorusHypnotic/opera-atlas) — Sistema SaaS completo
-- [tpc-paper](https://github.com/HorusHypnotic/tpc-paper) — Pré-print da Teoria da Persistência da Coordenação
-- [informodinamica-canonical](https://github.com/HorusHypnotic/informodinamica-canonical) — Núcleo canônico da teoria
-
-## Licença
-
-MIT © 2026 Eduardo Martins
+- A oferta pública oficial é o Diagnóstico Operacional (R$ 1.297), anunciada no site institucional.
+- A oferta de piloto de 90 dias a R$ 6.500/mês **não permanece ativa nesta fase** (decisão humana).
+- Esta landing foi neutralizada: sem preços de piloto, sem "vagas limitadas", sem data de início, sem garantias de recuperação, sem promessa de diagnóstico gratuito em 24h, sem "edital de pesquisa". Os blocos agora descrevem consulta de interesse e lista de espera.
+- **GitHub Pages permanece DESABILITADO** por decisão: esta página não foi publicada. Não se deve habilitar Pages apenas para eliminar o 404; a publicação exige revisão de conteúdo e decisão comercial formal.
+- O formulário (formsubmit.co) continua configurado para canteirodeobrasdigital@gmail.com e não será usado enquanto a página não estiver publicada.
+- Nome da teoria: usar "Teoria dos Processos Coordenativos" (TPC). "Teoria da Persistência da Coordenação" apenas como formulação histórica v0.8 quando necessário.
